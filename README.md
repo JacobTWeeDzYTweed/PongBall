@@ -1,3 +1,3 @@
 # PongBall
 A remake of pong in C#
-![](https://github.com/JacobTWeeDzYTweed/PongBall/blob/master/Code/PongBallGUI.pdf)
+![](https://github.com/JacobTWeeDzYTweed/PongBall/blob/master/Code/PongExample.png)
