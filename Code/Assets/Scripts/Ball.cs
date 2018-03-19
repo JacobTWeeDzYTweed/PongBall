@@ -15,6 +15,7 @@ public class Ball : MonoBehaviour {
     }
 
     void StartBall () {
+        transform.position = Vector3.zero;
         float randomY = Random.Range(-speed, speed);
         float xNegPos = Random.Range(0f, 1f);
         if (xNegPos <= 0.5f) xNegPos = -1;
