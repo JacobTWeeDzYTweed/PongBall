@@ -22,7 +22,7 @@ public class Paddle : MonoBehaviour {
         if (isUp) negPos = 1;
         else negPos = -1;
         Vector3 moveVector = new Vector3(0,negPos*speed*Time.deltaTime, 0);
-        if(moveVector.y + transform.position.y < 1.48f && moveVector.y + transform.position.y > -1.48f) 
+        if(moveVector.y + transform.position.y < 1.3f && moveVector.y + transform.position.y > -1.3f) 
         transform.Translate(moveVector);
          
     } 
